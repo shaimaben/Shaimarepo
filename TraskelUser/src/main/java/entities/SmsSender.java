@@ -6,8 +6,8 @@ import com.twilio.type.PhoneNumber;
 import java.net.URI;
 import java.math.BigDecimal;
 public class SmsSender {
-    public static final String ACCOUNT_SID = "TWILIO_ACCOUNT_SID";
-    public static final String AUTH_TOKEN = "TWILIO_AUTH_TOKEN";
+    public static final String ACCOUNT_SID = "AC8754599badc7195c08d0373c8215831c";
+    public static final String AUTH_TOKEN = "4e799d96fd3370b2a34f174dff9bd099";
 
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
