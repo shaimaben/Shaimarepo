@@ -77,8 +77,8 @@ public class InscriptionController {
     @FXML
     private Label passwordStrengthLabel;
     // Twilio account credentials
-    private static final String ACCOUNT_SID = "AC8754599badc7195c08d0373c8215831c";
-    private static final String AUTH_TOKEN = "4e799d96fd3370b2a34f174dff9bd099";
+    private static final String ACCOUNT_SID = "TWILIO_ACCOUNT_SID";
+    private static final String AUTH_TOKEN = "TWILIO_AUTH_TOKEN";
     public void setRegisteredUsers(List<Utilisateur> registeredUsers) {
         this.registeredUsers = registeredUsers;
     }
